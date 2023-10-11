@@ -1,0 +1,154 @@
+/* Grid */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+/* item1:logo & links */
+
+.item1{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+h2{
+    color: #686b78;
+    margin-top: 5px;
+}
+
+.locationinput{
+    width: 70%;
+    height: 25px;
+    margin: 40PX auto auto 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.location{
+    border: none;
+    background-color: transparent;
+    color: #535665;
+    position: absolute;
+    top:290px;
+    left:400px;
+    padding: 15px;
+
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+.findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    background-color: #fc8019;
+    color: white;
+    line-height: 50px;
+}
+
+.popularcities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+
+.citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.lists{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+
+.lists:nth-child(even){
+    color: lightslategray;
+}
+/* item2 banner */
+
+.Banner{
+    height: auto;
+    width:100%;
+    background-size: cover;
+}
+
+.info-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2b1e16;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-allgn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:300px;
+}
+
+.text-head{
+    color:white;
+    text-align: center;
+}
+
+.text-detail{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
